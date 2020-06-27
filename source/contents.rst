@@ -1,7 +1,7 @@
 .. include:: ../README.rst
 
 .. toctree::
-   :caption: Theme Documentation
+   :caption: Введение
    :maxdepth: 2
 
    installing
@@ -9,10 +9,11 @@
    contributing
 
 .. toctree::
-   :maxdepth: 1
-   :hidden:
+   :caption: Основы
+   :maxdepth: 2
 
-   changelog
+
+   basics
 
 .. toctree::
     :maxdepth: 2

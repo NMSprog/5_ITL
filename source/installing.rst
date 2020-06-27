@@ -1,41 +1,41 @@
-************
-Installation
-************
+*********
+Установка
+*********
 
-Install the package (or add it to your ``requirements.txt`` file):
+Для установки компилятора языка программирования скачайте инсталятор
+соответствующий ващей операционной ссистеме с сайта разработчика Python.org_
+
+Так же установить Python можно испльлзуя консольные утилиты
+
+.. _Python.org: https://www.python.org/downloads/
+
+Windows
+#######
 
 .. code:: console
 
-    $ pip install sphinx_rtd_theme
+    choco install python3
 
-In your ``conf.py`` file:
+Linux: Ubuntu
+#############
 
-.. code:: python
+.. code:: sh
 
-    import sphinx_rtd_theme
+    sudo apt install python3
 
-    extensions = [
-        ...
-        'sphinx_rtd_theme',
-    ]
+Linux: Fedora
+#############
 
-    html_theme = "sphinx_rtd_theme"
+.. code:: sh
+
+    sudo dnf install python3
 
 
 .. note::
-    Adding this theme as an extension is what enables localization of theme
-    strings in your translated output. If these strings are not translated in
-    your output, either we lack the localized strings for your locale, or you
-    are using an old version of the theme.
+    в Linux дистрибутивах установщик пакетов pip (он нам понадобится в будущем)
+    необходимо устанавливать дополнительно.
 
-Via Git or Download
-===================
+    .. code:: sh
 
-Symlink or subtree the ``sphinx_rtd_theme/sphinx_rtd_theme`` repository into your documentation at
-``docs/_themes/sphinx_rtd_theme`` then add the following two settings to your Sphinx
-``conf.py`` file:
+       sudo apt install python3-pip
 
-.. code:: python
-
-    html_theme = "sphinx_rtd_theme"
-    html_theme_path = ["_themes", ]
