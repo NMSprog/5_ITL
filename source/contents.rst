@@ -6,13 +6,14 @@
 
    installing
    introduse
-   contributing
+
 
 .. toctree::
-   :caption: Основы
-   :maxdepth: 2
+    :maxdepth: 2
+    :numbered:
+    :caption: Основы
 
-    Basics/syntax
+    basics/syntax
 
 .. toctree::
     :maxdepth: 2
