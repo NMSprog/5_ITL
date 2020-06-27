@@ -1,3 +1,5 @@
 .idea/
 mylibs/
 venv/
+.vscode/
+**/_build/
