@@ -1,23 +1,32 @@
 **************************
-Русскозычная документация по Python
+Read the Docs Sphinx Theme
 **************************
 
-Данняя документация содржит краткое описание синтаксиса языка программирвоания Python.
+.. image:: https://img.shields.io/pypi/v/sphinx_rtd_theme.svg
+   :target: https://pypi.python.org/pypi/sphinx_rtd_theme
+   :alt: Pypi Version
+.. image:: https://travis-ci.org/readthedocs/sphinx_rtd_theme.svg?branch=master
+   :target: https://travis-ci.org/readthedocs/sphinx_rtd_theme
+   :alt: Build Status
+.. image:: https://img.shields.io/pypi/l/sphinx_rtd_theme.svg
+   :target: https://pypi.python.org/pypi/sphinx_rtd_theme/
+   :alt: License
+.. image:: https://readthedocs.org/projects/sphinx-rtd-theme/badge/?version=latest
+  :target: http://sphinx-rtd-theme.readthedocs.io/en/latest/?badge=latest
+  :alt: Documentation Status
 
-Как установить Python
+This Sphinx_ theme was designed to provide a great reader experience for
+documentation users on both desktop and mobile devices. This theme is used
+primarily on `Read the Docs`_ but can work with any Sphinx project. You can find
+a working demo of the theme in the `theme documentation`_
+
+.. _Sphinx: http://www.sphinx-doc.org
+.. _Read the Docs: http://www.readthedocs.org
+.. _theme documentation: https://sphinx-rtd-theme.readthedocs.io/en/latest/
+
+Installation
 ============
 
-Для того  что бы установить Python, необходимо скачать установочный пакет с официального сайта
-
-.. _Python.org: https://python.org/downloads
-
-либо используя консольные утилиты в зависимости от вашей операционной системы
-
-Winodws
-.. code:: powershell
-   choco install python3
-
-   
 This theme is distributed on PyPI_ and can be installed with ``pip``:
 
 .. code:: console
