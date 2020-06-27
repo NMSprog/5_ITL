@@ -8,3 +8,4 @@ simple_string[0]
 # 'S'
 simple_string[1]
 # 'p'
+
