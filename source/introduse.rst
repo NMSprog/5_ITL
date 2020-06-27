@@ -92,6 +92,10 @@
 Настало время написать нашу первую программу, создайте файл **Hello_World.py**
   со следующим содержимым:
 
+.. literalinclude:: ../Examples/Hello_World.py
+  :language: python
+
+
 .. code:: python
 
     #!/usr/bin/env python3
