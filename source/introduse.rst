@@ -13,7 +13,7 @@
 
 
 .. figure:: ./_static/images/IDLE.png
-    :figwidth: 800px
+    :figwidth: 600px
     :target: ./_static/images/IDLE.png
 
 
