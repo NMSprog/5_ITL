@@ -30,7 +30,14 @@ author = 'Oleg Kishinskii'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
+    "recommonmark",
 ]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
