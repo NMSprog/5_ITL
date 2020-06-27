@@ -12,9 +12,9 @@
       python3
 
 
-.. figure:: ../_static/img/IDLE.png
+.. figure:: ./_static/images/IDLE.png
     :figwidth: 800px
-    :target: ../_static/img/IDLE.png
+    :target: ./_static/images/IDLE.png
 
 
 
