@@ -12,8 +12,7 @@
    :caption: Основы
    :maxdepth: 2
 
-
-   basics
+    Basics/syntax
 
 .. toctree::
     :maxdepth: 2
