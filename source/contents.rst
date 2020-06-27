@@ -1,20 +1,32 @@
-.. Python Lessons documentation master file, created by
-   sphinx-quickstart on Sat Jun 27 18:29:09 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Python Lessons's documentation!
-==========================================
+.. include:: ../README.rst
 
 .. toctree::
+   :caption: Theme Documentation
    :maxdepth: 2
-   :caption: Contents:
 
+   installing
+   configuring
+   contributing
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
 
-Indices and tables
-==================
+   changelog
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+    :maxdepth: 2
+    :numbered:
+    :caption: Demo Documentation
+
+    demo/structure
+    demo/demo
+    demo/lists_tables
+    demo/api
+
+.. toctree::
+    :maxdepth: 3
+    :numbered:
+    :caption: This is an incredibly long caption for a long menu
+
+    demo/long
