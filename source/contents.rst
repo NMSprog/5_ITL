@@ -13,7 +13,8 @@
     :numbered:
     :caption: Основы
 
-    basics/syntax
+    basics/types
+    basics/operators
 
 .. toctree::
     :maxdepth: 2
