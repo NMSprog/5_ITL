@@ -142,9 +142,9 @@ Python неявно стимулирует использование по од�
 
 .. code:: python
 
-    simple_string = "SringBody"
+    simple_string = "StringBody"
     simple_string[1]
-    # r
+    # t
 
     simple_string[-1]
     # y
@@ -301,3 +301,11 @@ Python неявно стимулирует использование по од�
     myTuple = ("John", "Peter", "Vicky")
     x = "-".join(myTuple)
     print(x) #John-Peter-Vicky
+
+Пример программы
+----------------
+
+**Подсчет слов**
+
+.. literalinclude:: ../../Examples/words_counter.py
+  :language: python
