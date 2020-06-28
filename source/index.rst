@@ -15,6 +15,7 @@
 
     basics/types
     basics/operators
+    basics/functions
 
 .. toctree::
     :maxdepth: 2
