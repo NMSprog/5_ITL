@@ -2,8 +2,6 @@ version: 2
 
 python:
   version: 3.12
-  install:
-    - requirements: requirements.txt
 
 apt_packages:
   - python3-distutils
