@@ -8,3 +8,7 @@ build:
 python:
   install:
     - requirements: requirements.txt
+  
+build:
+  apt_packages:
+    - python3-distutils 
