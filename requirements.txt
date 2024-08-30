@@ -23,4 +23,4 @@ sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
 urllib3==2.0.0
 sphinx_rtd_theme==3.0.0rc1
-myst_parser==0.18.1
+myst_parser==0.17.2
