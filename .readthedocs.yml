@@ -5,6 +5,7 @@ python:
   install:
     - pip install sphinx_rtd_theme
     - pip install recommonmark
+  system_packages: true
 
 apt_packages:
   - python3-distutils
