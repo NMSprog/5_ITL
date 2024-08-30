@@ -5,8 +5,8 @@ chardet==3.0.4
 docutils==0.16
 idna==2.9
 imagesize==1.2.0
-Jinja2==2.11.3
-MarkupSafe==1.1.1
+Jinja2>=3.1
+MarkupSafe>=2.0
 packaging==20.4
 Pygments==2.7.4
 pyparsing==2.4.7
@@ -14,7 +14,7 @@ pytz==2020.1
 requests==2.24.0
 six==1.15.0
 snowballstemmer==2.0.0
-Sphinx==8.0.2
+sphinx==8.0.2
 sphinxcontrib-applehelp==2.0.0
 sphinxcontrib-devhelp==2.0.0
 sphinxcontrib-htmlhelp==2.1.0
