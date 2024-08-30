@@ -4,16 +4,12 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.12"
-  commands:
-    - make html
-    - echo "Сборка завершена"
 
 python:
   version: 3.12
   install:
-    - pip install sphinx_rtd_theme
-    - pip install recommonmark
-  system_packages: true
+    - requirements: docs/requirements.txt
 
-apt_packages:
-  - python3-distutils
+sphinx:
+  configuration: docs/source/conf.py
+  fail_on_warning: true
