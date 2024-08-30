@@ -7,8 +7,8 @@ build:
 
 python:
   install:
-    - requirements: IT_Lessons/requirements.txt
+    - requirements: requirements.txt
 
 sphinx:
-  configuration: IT_Lessons/source/conf.py
+  configuration: /source/conf.py
   fail_on_warning: true
