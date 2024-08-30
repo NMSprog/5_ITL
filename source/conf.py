@@ -30,7 +30,7 @@ author = 'Oleg Kishinskii'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
-    "recommonmark",
+    "myst_parser",
 ]
 
 source_suffix = {
