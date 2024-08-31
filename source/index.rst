@@ -10,7 +10,6 @@
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
     :caption: Основы
 
     basics/types
