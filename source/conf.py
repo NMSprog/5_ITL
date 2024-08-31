@@ -18,9 +18,9 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Python Lessons'
-copyright = '2020, Oleg Kishinskii'
-author = 'Oleg Kishinskii'
+project = 'IT-Lessons'
+copyright = '2024, НМС'
+author = 'M'
 
 
 # -- General configuration ---------------------------------------------------
