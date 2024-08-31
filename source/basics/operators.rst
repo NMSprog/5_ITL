@@ -202,7 +202,7 @@
 
     for key in tests:
         for item in items:
-            if item — key:
+            if item - key:
                 print (key, "was found")
                 break
             else:

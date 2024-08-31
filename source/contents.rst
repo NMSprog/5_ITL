@@ -19,7 +19,6 @@
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
     :caption: Модули
 
     modules/modules
