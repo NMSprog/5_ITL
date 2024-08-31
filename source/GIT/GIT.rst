@@ -5,6 +5,7 @@ GIT
 Клонирование репозитория в локальную папку:
 
 .. code:: GIT
+    
     git clone https://github.com/Автор_Username/Pylessons.git J:\GIT\IT_Lessons
 
 Создание нового репозитория на GitHub:
