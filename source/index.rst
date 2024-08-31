@@ -23,6 +23,7 @@
     :maxdepth: 2
     
     GIT/GIT
+    GIT/GITHUB
 
 .. toctree::
     :caption: HTML
