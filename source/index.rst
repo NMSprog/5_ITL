@@ -32,10 +32,11 @@
     HTML/HTML
 
 .. toctree::
-    :caption: Markdown
+    :caption: Язык разметки текста
     :maxdepth: 2
     
-    Markdown/Markdown
+    Markup_language/Markdown
+    Markup_language/reStructuredText
 
 .. toctree::
     :caption: Python
