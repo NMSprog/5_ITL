@@ -21,7 +21,7 @@
 .. code:: markdown
 
     .. toctree::
-    :caption: Консоли
-    :maxdepth: 2
+        :caption: Консоли
+        :maxdepth: 2
     
-    Сonsole/Сonsole
+        Сonsole/Сonsole
