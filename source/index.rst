@@ -4,6 +4,7 @@
    :caption: Введение
    :maxdepth: 2
 
+   contents
    installing
    introduse
 
