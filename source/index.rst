@@ -1,6 +1,14 @@
 .. include:: ../README.rst
 
 .. toctree::
+    :caption: IT_Lessons
+    :maxdepth: 2
+    
+    Readthedocs/Readthedocs
+
+
+
+.. toctree::
    :caption: Введение
    :maxdepth: 2
 
@@ -22,3 +30,4 @@
     :caption: Модули
 
     modules/modules
+
