@@ -52,7 +52,7 @@
 
 2. Создание файла index-01-docker.rst в котором указана папка с фалами (текстом)
 
-.. code:: 
+:: 
 
     .. toctree::
         :maxdepth: 2
@@ -63,9 +63,9 @@
 3. Содержимое папки 
 
 ::
-    011_chapter1.rst
-    031_chapter3.rst
-    041_chapter4.rst
-    051_chapter5.rst
-    061_chapter6.rst
-    991_links.rst
+     011_chapter1.rst
+     031_chapter3.rst
+     041_chapter4.rst
+     051_chapter5.rst
+     061_chapter6.rst
+     991_links.rst

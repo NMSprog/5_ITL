@@ -51,6 +51,12 @@
     VS_Code/VS_Code
 
 .. toctree::
+    :caption: VS Code
+    :maxdepth: 2
+    
+    Search/Search
+    
+.. toctree::
    :caption: Введение
    :maxdepth: 2
 

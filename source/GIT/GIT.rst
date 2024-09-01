@@ -27,3 +27,9 @@ GIT
     на ваш реальный GitHub username.
 
     git push -u origin master - Отправить все изменения в ваш новый репозиторий на GitHub
+
+::
+
+     git add .
+     git commit -m "Изменение Сайта"  
+     git push
