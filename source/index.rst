@@ -1,6 +1,12 @@
 .. include:: ../README.rst
 
 .. toctree::
+    :caption: IT
+    :maxdepth: 2
+
+    Parsing/parsing
+
+.. toctree::
     :caption: Сайт IT_Lessons
     :maxdepth: 2
     
