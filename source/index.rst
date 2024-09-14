@@ -4,7 +4,7 @@
     :caption: IT
     :maxdepth: 2
 
-    IT/parsing/parsing
+    IT/Parsing/Parsing
 
 .. toctree::
     :caption: Сайт IT_Lessons
