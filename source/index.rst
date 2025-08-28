@@ -5,6 +5,8 @@
     :maxdepth: 2
 
     Python/Python
+    basics/types
+    modules/modules
     JavaScript/JavaScript
 
 .. toctree::
@@ -55,18 +57,3 @@
     :maxdepth: 2
     
     Search/Search
-    
-.. toctree::
-    :caption: Введение
-    :maxdepth: 2
-
-    contents
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Основы
-
-    basics/types
-    basics/operators
-    basics/functions
-    modules/modules
