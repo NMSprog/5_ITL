@@ -1,10 +1,48 @@
 .. include:: ../README.rst
 
 .. toctree::
-    :caption: IT
+    :caption: Языки программирования
+    :maxdepth: 2
+
+    Python/Python
+    JavaScript/JavaScript
+
+.. toctree::
+    :caption: Работа с данными
     :maxdepth: 2
 
     IT/Parsing/Parsing
+    DB/DB
+    DB/JSON_XML
+
+.. toctree::
+    :caption: Веб и разметка
+    :maxdepth: 2
+
+    HTML/HTML
+    Markup_language/Markdown
+    Markup_language/reStructuredText
+    CSS/CSS
+
+.. toctree::
+    :caption: Редакторы и инструменты
+    :maxdepth: 2
+
+    VS_Code/VS_Code
+
+.. toctree::
+    :caption: Системы контроля версий
+    :maxdepth: 2
+
+    GIT/GIT
+    GIT/GITHUB/GITHUB
+
+.. toctree::
+    :caption: Консоль
+    :maxdepth: 2
+
+    Сonsole/PowerShell
+    Сonsole/Bash
 
 .. toctree::
     :caption: Сайт IT_Lessons
@@ -13,68 +51,16 @@
     Readthedocs/Readthedocs
 
 .. toctree::
-    :caption: Консоли
-    :maxdepth: 2
-    
-    Сonsole/Сonsole
-
-.. toctree::
-    :caption: Базы данных
-    :maxdepth: 2
-    
-    DB/DB
-
-.. toctree::
-    :caption: GIT
-    :maxdepth: 2
-    
-    GIT/GIT
-    GIT/GITHUB/GITHUB
-
-.. toctree::
-    :caption: HTML
-    :maxdepth: 2
-    
-    HTML/HTML
-
-.. toctree::
-    :caption: Язык разметки текста
-    :maxdepth: 2
-    
-    Markup_language/Markdown
-    Markup_language/reStructuredText
-
-.. toctree::
-    :caption: Python
-    :maxdepth: 2
-    
-    Python/Python
-
-.. toctree::
-    :caption: JavaScript
-    :maxdepth: 2
-    
-    JavaScript/JavaScript
-
-.. toctree::
-    :caption: VS Code
-    :maxdepth: 2
-    
-    VS_Code/VS_Code
-
-.. toctree::
-    :caption: VS Code
+    :caption: Search
     :maxdepth: 2
     
     Search/Search
     
 .. toctree::
-   :caption: Введение
-   :maxdepth: 2
+    :caption: Введение
+    :maxdepth: 2
 
-   contents
-   installing
-   introduse
+    contents
 
 .. toctree::
     :maxdepth: 2
@@ -83,10 +69,4 @@
     basics/types
     basics/operators
     basics/functions
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Модули
-
     modules/modules
-
