@@ -51,6 +51,12 @@
     Python/Python
 
 .. toctree::
+    :caption: JavaScript
+    :maxdepth: 2
+    
+    JavaScript/JavaScript
+
+.. toctree::
     :caption: VS Code
     :maxdepth: 2
     
