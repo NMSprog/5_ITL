@@ -52,9 +52,9 @@ Linux: Fedora
     python3
 
 
-.. figure:: ./_static/images/IDLE.png
+.. figure:: /_static/images/IDLE.png
     :figwidth: 600px
-    :target: ./_static/images/IDLE.png
+    :target: /_static/images/IDLE.png
 
 
 
@@ -135,7 +135,7 @@ Linux: Fedora
 Настало время написать нашу первую программу, создайте файл **Hello_World.py**
 со следующим содержимым:
 
-.. literalinclude:: ../Examples/Hello_World.py
+.. literalinclude:: Examples/Hello_World.py
   :language: python
 
 
