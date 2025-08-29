@@ -6,6 +6,8 @@
 
     Python/Python
     Python/modules
+    Python/Library
+    Python/Framework
     JavaScript/JavaScript
 
 .. toctree::
@@ -56,3 +58,22 @@
     :maxdepth: 2
     
     Search/Search
+
+.. toctree::
+    :caption: Игровая разработка
+    :maxdepth: 2
+    
+    GameDev/Gamedesign
+    GameDev/Game_architecture
+
+.. toctree::
+    :caption: Серверная часть
+    :maxdepth: 2
+    
+    ServerPart/ServerDeployment
+    
+.. toctree::
+    :caption: Автоматизация и боты
+    :maxdepth: 2
+    
+    Automation/Automation
