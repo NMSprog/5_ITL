@@ -5,8 +5,7 @@
     :maxdepth: 2
 
     Python/Python
-    basics/types
-    modules/modules
+    Python/modules
     JavaScript/JavaScript
 
 .. toctree::
