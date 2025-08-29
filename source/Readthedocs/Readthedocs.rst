@@ -3,6 +3,24 @@
 ***************
 
 
+Боковое меню строится в файле index.rst
+
+Если в файле .rst есть структура:
+
+.. code:: 
+
+    Search
+    ======
+    Overview
+    --------
+    Details
+    ~~~~~~~
+
+При :maxdepth: 1 → в оглавлении будет только "Search".
+При :maxdepth: 2 → будет "Search" и "Overview".
+При :maxdepth: 3 → будет "Search", "Overview", "Details".
+
+
 Добавление в меню.
 
 *Вариант №1*
@@ -63,9 +81,9 @@
 3. Содержимое папки 
 
 ::
-     011_chapter1.rst
-     031_chapter3.rst
-     041_chapter4.rst
-     051_chapter5.rst
-     061_chapter6.rst
-     991_links.rst
+    011_chapter1.rst
+    031_chapter3.rst
+    041_chapter4.rst
+    051_chapter5.rst
+    061_chapter6.rst
+    991_links.rst

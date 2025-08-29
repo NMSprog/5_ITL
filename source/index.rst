@@ -7,6 +7,7 @@
     Python/Python
     Python/modules
     Python/Library
+    Python/SQLAlchemy
     Python/Framework
     JavaScript/JavaScript
 
@@ -17,6 +18,7 @@
     IT/Parsing/Parsing
     DB/DB
     DB/JSON_XML
+    DB/SQLite
 
 .. toctree::
     :caption: Веб и разметка
@@ -65,6 +67,7 @@
     
     GameDev/Gamedesign
     GameDev/Game_architecture
+    GameDev/Aseprite
 
 .. toctree::
     :caption: Серверная часть
