@@ -14,11 +14,12 @@
 .. toctree::
     :caption: Работа с данными
     :maxdepth: 2
-
-    IT/Parsing/Parsing
-    DB/DB
+    
+    DB/Form_protok
     DB/JSON_XML
+    DB/DB
     DB/SQLite
+    IT/Parsing/Parsing
 
 .. toctree::
     :caption: Веб и разметка
