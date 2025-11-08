@@ -1,5 +1,12 @@
 .. include:: ../README.rst
 
+
+.. toctree::
+    :caption: Проверка
+    :maxdepth: 2
+    
+    test
+
 .. toctree::
     :caption: Языки программирования
     :maxdepth: 2
@@ -10,7 +17,7 @@
     Python/SQLAlchemy
     Python/Framework
     JavaScript/JavaScript
-
+    
 .. toctree::
     :caption: Работа с данными
     :maxdepth: 2
