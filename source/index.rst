@@ -4,7 +4,7 @@
 .. toctree::
     :caption: Проверка
     :maxdepth: 2
-    
+
     test
 
 .. toctree::
@@ -12,10 +12,7 @@
     :maxdepth: 2
 
     Python/Python
-    Python/modules
-    Python/Library
     Python/SQLAlchemy
-    Python/Framework
     JavaScript/JavaScript
     
 .. toctree::
