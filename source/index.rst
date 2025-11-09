@@ -1,12 +1,5 @@
 .. include:: ../README.rst
 
-
-.. toctree::
-    :caption: Проверка
-    :maxdepth: 2
-
-    test
-
 .. toctree::
     :caption: Языки программирования
     :maxdepth: 2
