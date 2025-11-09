@@ -5,6 +5,7 @@
     :maxdepth: 2
 
     Python/Python
+    Python/Modul
     Python/SQLAlchemy
     JavaScript/JavaScript
     
