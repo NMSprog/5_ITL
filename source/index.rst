@@ -2,7 +2,7 @@
 
 .. toctree::
     :caption: Языки программирования
-    :maxdepth: 2
+    :maxdepth: 3
 
     Python/Python
     Python/SQLAlchemy
