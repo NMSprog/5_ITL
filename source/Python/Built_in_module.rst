@@ -405,6 +405,48 @@ dataclasses
 datetime
 ^^^^^^^^^^^^^^^^
 
+DateTime
+
+.. code:: python
+
+    from datetime import data
+
+    my_date = date(2100, 4, 15)
+    print(my_date) # 2100-04-15
+    print(my_date.day) # 15
+    print(my_date.isocalendar()) # datetime.IsoCalendarDate(year=2100, week=15, weekday=4)
+
+    from datetime import time
+    my_time = time(18, 10, 45) # 18:10:45 час, минута, секунда
+    print(my_time.hour) # 18
+
+    from datetime import datetime
+    my_datetime = datetime(2025, 12, 10, 18, 10, 45) # 2100-04-15 18:10:45
+
+Форматирование дат
+
+.. code:: python
+
+    from datetime import datetime, timedelta
+
+    my_datetime = datetime(2025, 12, 10, 18, 10, 45) # 2100-04-15 18:10:45
+    my_datetime.strftime('%d-%b/%Y %H:%M:%S') # 10-Dec/2025 18:10:45
+    a = '10/12/225'
+    converted = datetime.strftime(a,'%d-%b/%Y %H:%M:%S') # 10-Dec/2025 18:10:45
+
+    my_datetime + timedelta(days=100, hours=2) # прибавит к дате 100 дней
+
+    import time
+    time.time() # вывод секунд с Юникс эпохи с 01.01.1970
+    time.ctime(24553453) # Mon Oct 12 15:24:13 1970
+    time.sleep(2.5) # Остановит исполнение следующего кода на 2,5 секунд
+
+    start_time = time.time()
+    # выполняемый код
+    end_time = time.time()
+    print(end_time - start_time) # Время выполнения кода
+    
+
 dbm
 ^^^^^^^^^^^^^^^^
 
