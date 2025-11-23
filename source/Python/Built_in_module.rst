@@ -402,10 +402,8 @@ curses
 dataclasses
 ^^^^^^^^^^^^^^^^
 
-datetime
-^^^^^^^^^^^^^^^^
-
 DateTime
+^^^^^^^^^^^^^^^^
 
 .. code:: python
 
@@ -445,7 +443,7 @@ DateTime
     # выполняемый код
     end_time = time.time()
     print(end_time - start_time) # Время выполнения кода
-    
+
 
 dbm
 ^^^^^^^^^^^^^^^^
@@ -873,8 +871,31 @@ xmlrpc
 zipapp
 ^^^^^^^^^^^^^^^^
 
-zipfile
+ZipFile
 ^^^^^^^^^^^^^^^^
+
+Zip
+.. code:: python
+
+    from zipfile import ZipFile
+    from pathlib import Path
+
+    Path('my-files').mkdir()
+    with open('my-files/first.txt', 'w', encoding='utf-8') as my_file:
+        my_file.write('Это первый файл')
+
+    with open('my-files/second.txt', 'w', encoding='utf-8') as my_file:
+        my_file.write('Это второй файл')
+
+    with ZipFile('my-files/my-files.zip', mode='w') as my_zip_file:
+        # print(my_zip_file) # <zipfile.ZipFile filename='my-files.zip' mode='w'>
+        for file in Path('my-files').iterdir(): # iterdir() - метод итерация по директории
+            print(file) # my-files\first.txt  # my-files\second.txt
+            my_zip_file.write(file)
+
+    with ZipFile('my-files/my-files.zip') as my_zip_file:
+        my_zip_file.extractall('my-files-unzipped') # распаковка архива в новую папку my-files-unzipped
+        print(my_zip_file.infolist()) # информация о каждом файле
 
 zipimport
 ^^^^^^^^^^^^^^^^
