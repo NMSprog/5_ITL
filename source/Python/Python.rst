@@ -2593,8 +2593,8 @@ Python имеет остроумную особенность, называем�
 
 Модули
 ======
-.. literalinclude:: ../../Python/Built_in_module.py
-  :language: python
+.. literalinclude:: Built_in_module.py
+   :language: python
 
 
 
