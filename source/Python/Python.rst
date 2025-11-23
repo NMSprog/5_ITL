@@ -2596,7 +2596,7 @@ Python имеет остроумную особенность, называем�
 
 :orphan:
 .. literalinclude:: Built_in_module.py
-   :language: python
+    :language: python
 
 
 
