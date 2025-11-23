@@ -2594,7 +2594,9 @@ Python имеет остроумную особенность, называем�
 Модули
 ======
 
-.. include:: Built_in_module.py
+:orphan:
+
+.. include:: Built_in_module.rst
 
 
 
