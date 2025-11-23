@@ -157,158 +157,165 @@ _модули — только если знаешь точно, что дела
     print(sorted(sys.stdlib_module_names))
 
 
-__future__
-^^^^^^^^^^^^^^^
+.. raw:: html
 
-_aix_support
-^^^^^^^^^^^^^^^
+    <details>
+    <summary>Показать текст</summary>
+    
+    __future__
+    ^^^^^^^^^^^^^^^
 
-_android_support
-^^^^^^^^^^^^^^^^
+    _aix_support
+    ^^^^^^^^^^^^^^^
 
-_apple_support
-^^^^^^^^^^^^^^^
+    _android_support
+    ^^^^^^^^^^^^^^^^
 
-_ast_unparse
-^^^^^^^^^^^^^^^^
+    _apple_support
+    ^^^^^^^^^^^^^^^
 
-_asyncio
-^^^^^^^^^^^^^^^^
+    _ast_unparse
+    ^^^^^^^^^^^^^^^^
 
-_bz2
-^^^^^^^^^^^^^^^^
+    _asyncio
+    ^^^^^^^^^^^^^^^^
 
-_collections_abc
-^^^^^^^^^^^^^^^^
+    _bz2
+    ^^^^^^^^^^^^^^^^
 
-_colorize
-^^^^^^^^^^^^^^^^
+    _collections_abc
+    ^^^^^^^^^^^^^^^^
 
-_compat_pickle
-^^^^^^^^^^^^^^^^
+    _colorize
+    ^^^^^^^^^^^^^^^^
 
-_ctypes
-^^^^^^^^^^^^^^^^
+    _compat_pickle
+    ^^^^^^^^^^^^^^^^
 
-_curses
-^^^^^^^^^^^^^^^^
+    _ctypes
+    ^^^^^^^^^^^^^^^^
 
-_curses_panel
-^^^^^^^^^^^^^^^^
+    _curses
+    ^^^^^^^^^^^^^^^^
 
-_dbm
-^^^^^^^^^^^^^^^^
+    _curses_panel
+    ^^^^^^^^^^^^^^^^
 
-_decimal
-^^^^^^^^^^^^^^^^
+    _dbm
+    ^^^^^^^^^^^^^^^^
 
-_elementtree
-^^^^^^^^^^^^^^^^
+    _decimal
+    ^^^^^^^^^^^^^^^^
 
-_frozen_importlib
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    _elementtree
+    ^^^^^^^^^^^^^^^^
 
-_frozen_importlib_external
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    _frozen_importlib
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_gdbm
-^^^^^^^^^^^^^^^^
+    _frozen_importlib_external
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_hashlib
-^^^^^^^^^^^^^^^^
+    _gdbm
+    ^^^^^^^^^^^^^^^^
 
-_ios_support
-^^^^^^^^^^^^^^^^
+    _hashlib
+    ^^^^^^^^^^^^^^^^
 
-_lzma
-^^^^^^^^^^^^^^^^
+    _ios_support
+    ^^^^^^^^^^^^^^^^
 
-_markupbase
-^^^^^^^^^^^^^^^^
+    _lzma
+    ^^^^^^^^^^^^^^^^
 
-_multiprocessing
-^^^^^^^^^^^^^^^^
+    _markupbase
+    ^^^^^^^^^^^^^^^^
 
-_opcode_metadata
-^^^^^^^^^^^^^^^^
+    _multiprocessing
+    ^^^^^^^^^^^^^^^^
 
-_osx_support
-^^^^^^^^^^^^^^^^
+    _opcode_metadata
+    ^^^^^^^^^^^^^^^^
 
-_overlapped
-^^^^^^^^^^^^^^^^
+    _osx_support
+    ^^^^^^^^^^^^^^^^
 
-_posixshmem
-^^^^^^^^^^^^^^^^
+    _overlapped
+    ^^^^^^^^^^^^^^^^
 
-_posixsubprocess
-^^^^^^^^^^^^^^^^
+    _posixshmem
+    ^^^^^^^^^^^^^^^^
 
-_py_abc
-^^^^^^^^^^^^^^^^
+    _posixsubprocess
+    ^^^^^^^^^^^^^^^^
 
-_py_warnings
-^^^^^^^^^^^^^^^^
+    _py_abc
+    ^^^^^^^^^^^^^^^^
 
-_pydatetime
-^^^^^^^^^^^^^^^^
+    _py_warnings
+    ^^^^^^^^^^^^^^^^
 
-_pydecimal
-^^^^^^^^^^^^^^^^
+    _pydatetime
+    ^^^^^^^^^^^^^^^^
 
-_pyio
-^^^^^^^^^^^^^^^^
+    _pydecimal
+    ^^^^^^^^^^^^^^^^
 
-_pylong
-^^^^^^^^^^^^^^^^
+    _pyio
+    ^^^^^^^^^^^^^^^^
 
-_pyrepl
-^^^^^^^^^^^^^^^^
+    _pylong
+    ^^^^^^^^^^^^^^^^
 
-_queue
-^^^^^^^^^^^^^^^^
+    _pyrepl
+    ^^^^^^^^^^^^^^^^
 
-_remote_debugging
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    _queue
+    ^^^^^^^^^^^^^^^^
 
-_scproxy
-^^^^^^^^^^^^^^^^
+    _remote_debugging
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_sitebuiltins
-^^^^^^^^^^^^^^^^
+    _scproxy
+    ^^^^^^^^^^^^^^^^
 
-_socket
-^^^^^^^^^^^^^^^^
+    _sitebuiltins
+    ^^^^^^^^^^^^^^^^
 
-_sqlite3
-^^^^^^^^^^^^^^^^
+    _socket
+    ^^^^^^^^^^^^^^^^
 
-_ssl
-^^^^^^^^^^^^^^^^
+    _sqlite3
+    ^^^^^^^^^^^^^^^^
 
-_strptime
-^^^^^^^^^^^^^^^^
+    _ssl
+    ^^^^^^^^^^^^^^^^
 
-_threading_local
-^^^^^^^^^^^^^^^^
+    _strptime
+    ^^^^^^^^^^^^^^^^
 
-_tkinter
-^^^^^^^^^^^^^^^^
+    _threading_local
+    ^^^^^^^^^^^^^^^^
 
-_uuid
-^^^^^^^^^^^^^^^^
+    _tkinter
+    ^^^^^^^^^^^^^^^^
 
-_weakrefset
-^^^^^^^^^^^^^^^^
+    _uuid
+    ^^^^^^^^^^^^^^^^
 
-_wmi
-^^^^^^^^^^^^^^^^
+    _weakrefset
+    ^^^^^^^^^^^^^^^^
 
-_zoneinfo
-^^^^^^^^^^^^^^^^
+    _wmi
+    ^^^^^^^^^^^^^^^^
 
-_zstd
-^^^^^^^^^^^^^^^^
+    _zoneinfo
+    ^^^^^^^^^^^^^^^^
+
+    _zstd
+    ^^^^^^^^^^^^^^^^
+
+    </details>
 
 abc
 ^^^^^^^^^^^^^^^^
