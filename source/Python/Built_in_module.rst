@@ -875,6 +875,7 @@ ZipFile
 ^^^^^^^^^^^^^^^^
 
 Zip
+
 .. code:: python
 
     from zipfile import ZipFile
@@ -896,6 +897,7 @@ Zip
     with ZipFile('my-files/my-files.zip') as my_zip_file:
         my_zip_file.extractall('my-files-unzipped') # распаковка архива в новую папку my-files-unzipped
         print(my_zip_file.infolist()) # информация о каждом файле
+
 
 zipimport
 ^^^^^^^^^^^^^^^^
