@@ -855,6 +855,9 @@ zoneinfo
     import sys 
     print(sorted(sys.builtin_module_names))
 
+_модули
+^^^^^^^^^^^^^^^
+
 _abc
 """"""""""""""""""""""""
 _ast'
