@@ -1644,6 +1644,75 @@ T-строки
     print('Long string' == 'Short string') # False учитывает значение
     print('Long string' == 'Long  string') # False учитывает пробел
 
+
+Анатация типов
+--------------
+
+Аннотации типов просто считываются интерпретатором Python и никак более не обрабатываются, 
+но доступны для использования из стороннего кода и в первую очередь рассчитаны для использования статическими анализаторами.
+
+Аннотации типов поддерживаются многими IDE для Python, которые выделяют некорректный код или выдают подсказки в процессе набора текста.
+
+.. code:: python
+
+    cnt: int # Указыет, переменая должна быть int
+    cnt: str # Трезаписывает, тип анатации переменой на str
+
+    cnt: int = 0 # при наведении курсора на переменую, IDE(VS-Code) показывает тип переменой
+
+    def mul2(x: int, y: int = 2 ) -> float: # x: int,  y: int = 2 - по умолчанию -> float - вывод типа
+        ter: str = 'a'
+        return x * y
+
+    res = mul2(1)
+    print(res)
+    print(mul2.__annotations__) # {'x': <class 'int'>} - проверка типа анатации
+
+    from typung import Unio, Optional, Any, Final
+
+    sev: Union[int, float] = 1
+    # Unio - это int или float
+    sev: int | float = 1 # Тоже самое с Python 3.10
+
+    Digit = Union[int, float] # Псевдоним типа (type alias), поэтому имя пишется с большой буквы по принятому соглашению
+    sev: Digit = 1
+
+    Str = Optional[str] # Тоже самое что и StrTyp = Union[str, None]
+
+    sev: Any = 1 # Any - любой тип данных
+
+    MAX_VALUE: Final = 1000 # Final - Присвоение константы
+
+    from typung import List, Tuple, Dict, Set, Callable
+
+    lst: list = [1, 2, '3', True] # Анатация списка
+    lst: list[int] = [1, 2, '3', True] # Анатация списка с типом в списке, модуль mypy отлавливает ошибку
+
+    addr: tuple[int, str] = (1, 'ds', 3) # Указывается тип у каждого элемента
+    elems: tuple[float, ...] = [1.2, 2.3] # Все элементы должны быть float
+    
+    # словари, str -ключи, int - значения
+    words: dict[str, int] = {'one': 1} 
+    
+    # колекция
+    pers: set[str] = {'dds', 'dfs'}
+
+    # Callable описывает контракт функции: какие аргументы она принимает и что возвращает.
+    # Callable[[int, int], int] — функция, которая принимает два int и возвращает int
+    def apply_op(a: int, b: int, op: Callable[[int, int], int]) -> int:
+    # [int, int] - список аргументов функции
+    # , int - тип возвращаемого значения функции
+        return op(a, b)
+
+    # Обычная функция, подходящая под Callable[[int, int], int]
+    def add(x: int, y: int) -> int:
+        return x + y
+
+    # Передаём функцию как аргумент
+    result: int = apply_op(2, 3, add)
+    print(result)  # 5
+
+
 Преобразование типов
 --------------------
 
