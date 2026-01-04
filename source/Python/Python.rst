@@ -3686,6 +3686,20 @@ Python имеет строки документации, обычно обозн
         func()
     double_call(hello)
 
+Колбэк-функция
+--------------
+
+Колбэк-функция (callback function) — это функция, которую передают в другую функцию как аргумент, чтобы она была вызвана позже или при наступлении события.
+
+.. code:: python 
+
+    def greet(name):
+        print("Привет,", name)
+
+    def process_user(name, callback):  # callback — функция
+        callback(name)                 # вызываем её внутри
+
+    process_user("Анна", greet)
 
 Классы
 ------
