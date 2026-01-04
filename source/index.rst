@@ -1,6 +1,13 @@
 .. include:: ../README.rst
 
 .. toctree::
+    :caption: Программная инженерия
+    :maxdepth: 3
+
+    SoftwareEngineering/SoftwareEngineering
+    
+
+.. toctree::
     :caption: Языки программирования
     :maxdepth: 3
 
